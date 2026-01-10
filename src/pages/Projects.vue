@@ -6,7 +6,7 @@
                 <Project title="this website" link="https://github.com/zoe2276/zoe.rip" description="website made in Vue" />
                 <Project title="auth.zoe.rip" link="https://github.com/zoe2276/go-auth" description="authentication backend for zoe.rip, written in Go" />
                 <Project title="monitorman" link="https://github.com/zoe2276/monitorman" description="a monitor dimension manager written in Java. work in progress" />
-                <Project title="yRTC" link="https://github.com/zoe2276/yrtc" description="a custom RTC client" />
+                <Project title="loopi" link="https://github.com/zoe2276/loopi" description="a stitch counter and project tracker for knitting/crocheting. written in React" />
             </ul>
             
         </div>
