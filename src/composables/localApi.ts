@@ -6,7 +6,7 @@ export interface ApiParameters {
 
 async function callApi<T>(endpoint: string, params: ApiParameters): Promise<T> {
     params.headers ? params.headers.set("Content-Type", "application/json") : params.headers = new Headers({"Content-Type": "application/json"})
-    const res = await fetch(`${"https://auth.zoe.rip" /* import.meta.env.VITE_BASE_URL || "http://localhost:8099" */}${endpoint}`, params)
+    const res = await fetch(`${"https://auth.zlynn.dev" /* import.meta.env.VITE_BASE_URL || "http://localhost:8099" */}${endpoint}`, params)
 
     if (!res.ok) throw res
     setTimeout(() => {}, 100) // frontend slowdown

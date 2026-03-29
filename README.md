@@ -1,3 +1,3 @@
-# zoe.rip
+# zlynn.dev
 
 a website
